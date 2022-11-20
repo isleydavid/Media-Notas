@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+  
+  }
+  /* Style the header */
+.header {
+  background-color: #ebebeb;
+  color: yellow;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(8, 0, 63);
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Style the footer */
+.footer {
+  background-color: rgb(8, 0, 63);
+  color: #ddd;
+  padding: 10px;
+  text-align: center;
+}
+  body {
+    background-image: url(/imagem/pexels-pixabay-289738-scaled.jpg);
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid rgb(15, 24, 152);
+    width: 80%;
+    height: 800px;
+    background-image: linear-gradient(
+      to right,
+      rgb(236, 234, 234),
+      rgb(255, 255, 255)
+    );
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-bottom: 60px;
+  }
+
+  form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
+
+  .input {
+
+    border-radius: 12px;
+    padding: 8px;
+    margin: 11px;
+    align-items: baseline;
+  }
+  .text {
+    text-shadow: 2px 2px 4px #6e729c;
+  }
+
+  #calc {
+    border-radius: 8px;
+    width: 50%;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(16, 0, 188);
+    cursor: pointer;
+  }
+  
+  #clear {
+    border-radius: 8px;
+    width: 50%;
+    
+    margin: 10px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(25, 10, 192);
+    cursor: pointer;
+  }
+  
+  .resultado {
+    width: 90%;
+    height: 400px;
+    background-color: rgb(38, 38, 43);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    text-align: center;
+    justify-items: baseline;
+  }
+
+  #marco {
+    border-radius: 8px;
+  }
+
+  
+  #color1 {
+    color: forestgreen;
+  }
+  #color2 {
+    color: rgb(243, 7, 7);
+  }
+  #delete {
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  #delete:hover {
+    background-color: red;
+  }

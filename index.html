@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>unipe </title>
+  </head>
+  <body>
+<div class="header">
+  <img src="imagem/fundotransparente.png" alt="some text" width=150 height=50>
+</div>
+
+<div class="topnav">
+  <a href="#">Menu</a>
+  <a href="#">Mensagens</a>
+  <a href="#">Login</a>
+</div>
+
+    <div class="container">
+      <h1>NOTAS ALUNO</h1>
+      <hr />
+      <p>
+        <label for="" class="text">Nome do aluno:</label>
+        <input id="name" type="text" class="input" />
+      </p>
+      <p>
+        <label for=""class="text">matricula:</label>
+        <input id="matricula" type="number" class="input" />
+      </p>
+      <p>
+        <label for=""class="text">nota 1:</label>
+        <input id="nota1" type="number" class="input" />
+      </p>
+      <p>
+        <label for=""class="text">nota 2:</label>
+        <input id="nota2" type="number" class="input" />
+      </p>
+      <p>
+        <label for=""class="text">nota 3:</label>
+        <input id="nota3" type="number" class="input" />
+      </p>
+
+      <button id="calc"><strong>Calcular Media</strong></button> <br />
+      
+
+      <div  style="overflow-x: auto;" id="resultado" class="resultado">
+          <table  id="table" border="3" class="marco " >
+            <tr>
+              <th>NOME</td>
+              <th>MATRICULA</th>
+              <th>NOTA</td>
+              <th>RESULTADO</td>
+              <th>EXCLUIR</td>
+            </tr>
+          </table>
+      </div>
+      <button id="clear"><strong> Limpar Dados</strong></button>
+    </div>
+    <script src="/script.js"></script>
+    <div class="footer">
+      <p>isley david lopez giraldo</p>
+    </div>
+    </body>
+  </body>
+</html
